@@ -5,6 +5,6 @@ if(isset($_SESSION['email'])) {
     header('location:login.php');
 }
 else
-    header('location:home.php');
+    header('location:index.php');
 
 ?>

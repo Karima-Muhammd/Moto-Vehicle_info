@@ -2,7 +2,7 @@
 require_once 'db.php';
 if(!isset($_SESSION['email']))
 {
-    header('location:home.php');
+    header('location:index.php');
 
 }
 ?>
