@@ -1,6 +1,6 @@
 <?php
 $server_name="localhost";
-$user_name="root";
+$user_name="moto_vehicle";
 $password="";
 $db_name="route";
 
