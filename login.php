@@ -58,7 +58,7 @@ if(isset($_SESSION['email']))
                                     {
                                          $_SESSION['email']=$email;
                                          $_SESSION['name']=$data['name'];
-                                         header('location:home.php');
+                                         header('location:index.php');
                                     }
                                     else
                                         $error_message = "This Password is Not Correct";
